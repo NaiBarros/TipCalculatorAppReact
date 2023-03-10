@@ -1,0 +1,76 @@
+.container {
+  width: 930px;
+  height: 480px;
+  background-color: var(--White);
+  border-radius: 1rem;
+  display: flex;
+  font-size: 15px;
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+  }
+
+  button {
+    width: 120px;
+    height: 45px;
+    background-color: var(--Very-dark-cyan);
+    border: none;
+    border-radius: 5px;
+    color: var(--White);
+    font-size: 24px;
+
+  }
+}
+
+
+.inputSection {
+  width: 400px;
+  height: 400px;
+  background-color: var(--White);
+  color: var(--Grayish-cyan);
+
+}
+
+
+.valueSection {
+  width: 400px;
+  height: 400px;
+  background-color: var(--Very-dark-cyan);
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--Very-light-grayish-cyan);
+
+  h2 {
+    font-size: 13px;
+    color: var(--Grayish-cyan);
+  }
+
+
+  button {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: var(--Light-grayish-cyan);
+    color: var(--Very-dark-cyan);
+    font-size: 20px;
+
+  }
+
+  .valueDivTip {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .valueDivTotal {
+    display: flex;
+    justify-content: space-between;
+  }
+}
